@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RssReader</string>
+    <string name="no_feeds">No RSS feeds</string>
+    <string name="no_news">No news</string>
+    <string name="add_feed">Add feed</string>
+    <string name="delete_feed">Delete feed</string>
+    <string name="add_feed_message">Example:\n\tlenta.ru/rss\n\tmts.ru/news/rss</string>
+    <string name="feed_dialog_ok">OK</string>
+    <string name="feed_dialog_cancel">Cancel</string>
+
+    <string name="feed_adding_message">Adding RSS feed...</string>
+    <string name="feed_deleting_message">Deleting RSS feed...</string>
+
+    <string name="feed_url_empty">Input feed URL!</string>
+    <string name="feed_exists">Feed already exists</string>
+
+    <string-array name="default_feeds">
+        <item>http://lenta.ru/rss</item>
+        <item>http://mts.ru/news/rss</item>
+        <item>http://www.f1magazin.ru/rss/news.rss</item>
+    </string-array>
+
+</resources>

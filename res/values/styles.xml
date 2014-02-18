@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="@style/Theme.AppCompat">
+        <item name="android:windowBackground">@color/common_background</item>
+        <item name="actionBarStyle">@style/Widget.Styled.ActionBar</item>
+    </style>
+
+    <style name="Widget.Styled.ActionBar" parent="@style/Widget.AppCompat.ActionBar">
+        <item name="background">@color/ab_background</item>
+        <item name="titleTextStyle">@style/ActionBarTextStyle</item>
+    </style>
+
+    <style name="ActionBarTextStyle" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/ab_text_color</item>
+    </style>
+
+    <style name="HeaderTextView" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/header_text_color</item>
+        <item name="android:textSize">@dimen/header_text_size</item>
+    </style>
+
+    <style name="GrayTextView" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/gray_text_color</item>
+        <item name="android:textSize">@dimen/gray_text_size</item>
+    </style>
+
+</resources>
