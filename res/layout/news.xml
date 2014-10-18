@@ -10,6 +10,8 @@
         android:id="@+id/newsList"
         android:fadingEdge="none"
         android:cacheColorHint="@color/common_background"
+        android:dividerHeight="1dp"
+        android:divider="@color/divider_background"
         />
 
     <TextView

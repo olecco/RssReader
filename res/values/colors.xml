@@ -8,4 +8,5 @@
     <color name="ab_background">#FF888888</color>
     <color name="ab_text_color">#FFFFFFFF</color>
 
+    <color name="divider_background">#FFC0C0C0</color>
 </resources>
