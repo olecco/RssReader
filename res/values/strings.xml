@@ -15,6 +15,8 @@
     <string name="feed_url_empty">Input feed URL!</string>
     <string name="feed_exists">Feed already exists</string>
 
+    <string name="open_link">Open in browser</string>
+
     <string-array name="default_feeds">
         <item>http://lenta.ru/rss</item>
         <item>http://mts.ru/news/rss</item>

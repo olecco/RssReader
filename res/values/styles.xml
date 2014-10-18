@@ -24,4 +24,9 @@
         <item name="android:textSize">@dimen/gray_text_size</item>
     </style>
 
+    <style name="LinkTextView" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/link_text_color</item>
+        <item name="android:textSize">@dimen/link_text_size</item>
+    </style>
+
 </resources>
