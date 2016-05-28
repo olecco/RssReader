@@ -24,7 +24,6 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.olecco.android.rssreader.R;
-import com.olecco.android.rssreader.Utils;
 import com.olecco.android.rssreader.model.RssFeed;
 import com.olecco.android.rssreader.store.StoreHelper;
 
@@ -106,7 +105,6 @@ public class FeedsFragment extends Fragment {
         alert.setPositiveButton(R.string.feed_dialog_ok, new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialog, int whichButton) {
                 String url = input.getText().toString().trim();
-                url = Utils.prepareUrl(url);
                 if (url != null && !url.isEmpty()) {
                     RssFeed feed = new RssFeed();
                     feed.setTitle(url);

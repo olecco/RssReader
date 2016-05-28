@@ -1,5 +1,7 @@
 package com.olecco.android.rssreader.network;
 
+import android.util.Log;
+
 import com.olecco.android.rssreader.model.Post;
 
 import org.xmlpull.v1.XmlPullParser;
@@ -15,6 +17,8 @@ import java.util.List;
  * Created by olecco on 17.02.14.
  */
 public class RssParser {
+
+    private static final String TAG = "RssParser";
 
     public static List<Post> parse(InputStream input) {
         if (input != null) {
@@ -64,7 +68,7 @@ public class RssParser {
                 return result;
 
             } catch (XmlPullParserException e) {
-                return null;
+                Log.e(TAG, "Rss parser error", e);
             } catch (IOException e) {
                 return null;
             }

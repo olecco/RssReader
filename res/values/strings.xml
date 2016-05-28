@@ -5,7 +5,7 @@
     <string name="no_news">No news</string>
     <string name="add_feed">Add feed</string>
     <string name="delete_feed">Delete feed</string>
-    <string name="add_feed_message">Example:\n\tlenta.ru/rss\n\tmts.ru/news/rss</string>
+    <string name="add_feed_message">Example:\n\thttps://lenta.ru/rss</string>
     <string name="feed_dialog_ok">OK</string>
     <string name="feed_dialog_cancel">Cancel</string>
 
